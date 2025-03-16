@@ -5,9 +5,9 @@ name: str = "Andrew"
 
 isTrue: bool = True
 
-listOfFruits: list = {"Apple", "Banana"}
+listOfFruits: list = ["Apple", "Banana"]
 
-tupleOfFruits: tuple = {"Watermelon", "Orange"}
+tupleOfFruits: tuple = ("Watermelon", "Orange")
 
 isLikeMapInJava: dict = {"name": "Andrew", "name": "Joseph"}
 
