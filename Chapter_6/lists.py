@@ -54,12 +54,31 @@ print(listThree[:])
 # It will generate another object with all the
 # elements of the original object, but in a diferent
 # memory space
-
 print(copy.deepcopy(listOfFruits))
 
+# removing elements
 
+print(listOfFruits)
+del listOfFruits[0]
+print(listOfFruits)
 
+# searching a value
 
+if("Banana" in listOfFruits):
+    print("It is inside")
+else:
+    print("It's not")
+
+# list methods
+
+listOfFruits.sort()
+listOfFruits.append("Cocoa")
+listOfFruits.insert(0, "Coffee")
+listOfFruits.remove("Cocoa")
+lastElement = listOfFruits.pop()
+listOfFruits.reverse()
+
+print(listOfFruits)
 
 
 
