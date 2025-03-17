@@ -80,8 +80,19 @@ listOfFruits.reverse()
 
 print(listOfFruits)
 
+# nested lists
 
+nested = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
+for i in range(len(nested)):
+    for j in range(len(nested)):
+        print(nested[i][j])
 
+# list comprehension
+
+values = [1, 2, 3, 4, 5, 6]
+
+double = [value * 2 for value in values if value > 2]
+print(double)
 
 
