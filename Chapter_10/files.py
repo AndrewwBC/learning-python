@@ -16,9 +16,9 @@ with open('list.txt', 'w') as listTxt:
 
 # readline and readlines
 
-with open("list.txt", "r") as listTxt:
-    print(listTxt.readline())
-    print(listTxt.readlines())
+# with open("list.txt", "r") as listTxt:
+#     print(listTxt.readline())
+#     print(listTxt.readlines())
 
 # while
 
