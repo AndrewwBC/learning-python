@@ -49,3 +49,27 @@ if str2 in str1:
     print("Found")
 else:
     print("Not found")
+
+# string methods
+
+someString = "Pelotas  "
+
+lower = someString.lower()
+print(lower)
+
+upper = someString.upper()
+print(upper)
+replacedString = someString.replace("P", "M")
+print(replacedString)
+
+strip = someString.strip()
+print(strip)
+
+splitedString = someString.split("P")
+print(splitedString)
+
+
+
+
+
+
