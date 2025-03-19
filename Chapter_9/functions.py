@@ -19,8 +19,18 @@ result1 = multiply(2)
 def funcao():
      global x 
      x = 20
-     print(x)
+     # print(x)
 
 x = 10
 funcao()
-print(x)
+# print(x)
+
+# recursion
+
+def recursion(number):
+     if number == 0:
+          return 1
+     else:
+          return number * recursion(number - 1)
+
+print(recursion(3))
